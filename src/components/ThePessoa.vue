@@ -21,3 +21,9 @@ export default {
   },
 };
 </script>
+
+<style>
+img {
+  max-width: 200px;
+}
+</style>
