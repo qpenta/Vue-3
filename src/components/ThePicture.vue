@@ -1,15 +1,17 @@
 <template>
   <img :src="avatar" :alt="descricao" />
-  <TheReutilizacao />
+  <MudarImagem @mudar-imagem="trocarImagem" />
 </template>
 
 <script>
-import TheReutilizacao from "./TheReutilizacao";
+// import TheReutilizacao from "./TheReutilizacao";
+import MudarImagem from "./MudarImagem.vue";
 
 export default {
   name: "ThePicture",
   components: {
-    TheReutilizacao,
+    // TheReutilizacao,
+    MudarImagem,
   },
   data() {
     return {
@@ -17,5 +19,16 @@ export default {
       descricao: "Yago Batista",
     };
   },
+  methods: {
+    trocarImagem() {
+      this.avatar = "/img/avatar2.png";
+    },
+  },
 };
 </script>
+
+<style>
+img {
+  max-width: 200px;
+}
+</style>
