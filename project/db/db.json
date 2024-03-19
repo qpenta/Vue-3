@@ -65,17 +65,70 @@
   },
   "status": [
     {
-      "id": 1,
+      "id": "1",
       "tipo": "Solicitado"
     },
     {
-      "id": 2,
+      "id": "2",
       "tipo": "Em produção"
     },
     {
-      "id": 3,
+      "id": "3",
       "tipo": "Finalizado"
     }
   ],
-  "burgers": []
+  "burgers": [
+    {
+      "id": "ec08",
+      "nome": "Joao",
+      "carne": "Maminha",
+      "pao": "Parmesão e Orégano",
+      "opcionais": [],
+      "status": "Solicitado"
+    },
+    {
+      "id": "632f",
+      "nome": "Joao",
+      "carne": "Maminha",
+      "pao": "Parmesão e Orégano",
+      "opcionais": [],
+      "status": "Solicitado"
+    },
+    {
+      "id": "3909",
+      "nome": "Joao",
+      "carne": "Maminha",
+      "pao": "Parmesão e Orégano",
+      "opcionais": [],
+      "status": "Solicitado"
+    },
+    {
+      "id": "c1a8",
+      "nome": "Pepino",
+      "carne": "Veggie burger",
+      "pao": "Integral",
+      "opcionais": [],
+      "status": "Solicitado"
+    },
+    {
+      "id": "73c8",
+      "nome": "das",
+      "carne": "Alcatra",
+      "pao": "3 Queijos",
+      "opcionais": [],
+      "status": "Solicitado"
+    },
+    {
+      "id": "fdcb",
+      "nome": "Joao pedrto",
+      "carne": "Veggie burger",
+      "pao": "Parmesão e Orégano",
+      "opcionais": [
+        "Tomate",
+        "Cheddar",
+        "Pepino"
+      ],
+      "status": "Solicitado"
+    }
+  ]
 }
