@@ -1,10 +1,19 @@
 <template>
   <div class="main-container">
-    <h1>PEDIDOS</h1>
+    <h1>Gerenciar Pedidos</h1>
+    <TheDashboard />
   </div>
-  <!-- <TheFoter/> -->
 </template>
 
 <script>
-// import TheFooter from '../components/TheFooter';
+import TheDashboard from "../components/TheDashboard";
+
+export default {
+  name: "ThePedidos",
+  components: {
+    TheDashboard,
+  },
+};
 </script>
+
+<style></style>
